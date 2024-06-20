@@ -1,5 +1,15 @@
+
 # FloraFinds
-![logo](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/a2df544b-88cb-49f5-9469-16c1ba80187c)
+
+Small Logo:
+<img src="https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/a2df544b-88cb-49f5-9469-16c1ba80187c" alt="logo" style="width:50px;height:auto;">
+
+Medium Logo:
+<img src="https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/a2df544b-88cb-49f5-9469-16c1ba80187c" alt="logo" style="width:100px;height:auto;">
+
+Large Logo:
+<img src="https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/a2df544b-88cb-49f5-9469-16c1ba80187c" alt="logo" style="width:150px;height:auto;">
+
 
 
 Willkommen zu FloraFinds! Dies ist unser GitHub-Repository für unsere Webseite, die sich rund um Pflanzen dreht. Hier finden Sie alle relevanten Informationen und den Quellcode zu unserem Projekt.
