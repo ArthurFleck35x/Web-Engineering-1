@@ -10,7 +10,6 @@ Willkommen zu FloraFinds! Dies ist unser GitHub-Repository für unsere Webseite,
 4. [Installation](#installation)
 5. [Verwendung](#verwendung)
 6. [Mitwirkende](#mitwirkende)
-7. [Lizenz](#lizenz)
 
 ## Über FloraFinds
 
@@ -54,10 +53,6 @@ FloraFinds ist eine Webseite, die Pflanzenliebhabern dabei hilft, die schönsten
 ## Mitwirkende
 
 Dieses Projekt wurde von **Katharina** und **Lea** erstellt. Wir freuen uns über Feedback und Vorschläge zur Verbesserung der Webseite. 
-
-## Lizenz
-
-Dieses Projekt ist unter der MIT-Lizenz lizenziert – siehe die [LICENSE-Datei](LICENSE) für Details.
 
 ---
 
