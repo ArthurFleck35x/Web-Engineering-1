@@ -1,32 +1,21 @@
-# Obst (ähnliches bild finden)
-![rohes-obst-beeren-teller 1](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/6561660f-7da5-4c7f-bf60-414ca841f9a3)
+# Erdbeere 
+![Erdbeere](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/da488b96-4052-4cbb-aef2-c8cd9f9657e1)
 <br />
-# Apfelbaum
-![harvest-5161237_640 1](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/07acd993-f761-4fbf-b0b4-8cc4cfed01d4)
-![apples-3535566_640 1](https://github.com/ArthurFleck35x/Karteikartensystem/assets/152798623/8a4debb1-982b-4ed7-a33a-c594d21d2fd6)
-
+# Heidelbeere
+![Heidelbeeren](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/927bbe93-3bfe-44ff-bf57-8379a383e20a)
 <br />
-# Pfirsichbaum
-![peaches-7353447_640 1](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/1757d06d-b46a-4368-abcb-f2b0cd9765fd)
+# Johannisbeere
+![Johannisbeere](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/561b7d75-7ae1-42a9-bf57-559ba881adff)
 <br />
-# Erdbeere
-
-#Himbeere
-![raspberry-2023405_640 1](https://github.com/ArthurFleck35x/Karteikartensystem/assets/152798623/7758abf7-9128-45ab-ae8e-d0c1c3017efd)
-
+# Kirsche 
+![Kirsche](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/aed83adf-848e-4ff1-a633-072d421b88ab)
 <br />
-#
+# Mirabelle 
+![Mirabelle](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/1a216853-c4d1-4859-bb1c-0a75f95dbd1e)
 <br />
-#
+# Pfirsich 
+![Pfirsich](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/0c09a8e4-c85b-4847-8170-a6d14cfd3195)
 <br />
-#
+# Traube
+![Traube](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/4b080d3d-a258-4ec1-ad10-66998e6a35b9)
 <br />
-#
-<br />
-#
-<br />
-#
-<br />
-#
-<br />
-#
