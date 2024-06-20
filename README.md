@@ -63,4 +63,5 @@ Wir hoffen, dass Ihnen FloraFinds gefällt und freuen uns auf Ihre Unterstützun
 
 Herzliche Grüße,
 
-**Katharina & Lea**
+**Katharina & Lea** <br>
+![image](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/fc531d46-126c-42cd-a3bf-29ff55b7c960)
