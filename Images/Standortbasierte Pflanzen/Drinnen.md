@@ -1,13 +1,24 @@
-# Dahlie
-![schoene-bluehende-rosa-blume_23-2148787374 1](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/4d75d895-0b4a-48fb-8ca5-3c7f0e5f5eca)
-# weißer Strauß
-![dekorative-blumen-in-einer-vase_23-2148187020 1](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/30d749cc-22f5-43a2-a3d6-497b97309537)
+# Drinnen 
+![Drinnen](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/d8e54348-551f-4219-bcf1-bd2eead087e6)
+<br/>
+# Flammendes Kätzchen 
+![Flammendes Käthchen](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/393c1b17-54fb-458f-b08d-b9a0d0a3cf5b)
+<br/>
+# Hibiskus 
+![Hibiskus](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/e8a13368-fbcc-42fb-a03c-917ac5c56eff)
+<br/>
 # Orchidee
-![orchidee-die-zu-hause-blueht-rosa-phalaenopsis-in-einem-blumentopf-auf-einem-tisch_1048944-5907888 1](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/9709fb92-815a-4204-a26d-21c8f9afee02)
-# Alpenveilchen
-![pflanzen-und-gartenstillleben_23-2148128735 1](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/2e1148f6-9fae-4635-a50f-9b5f51b32c37)
-# rosa zwiebelblume
-![blumentopf-der-hyazinthe_23-2148444111 1](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/f8459ee9-e6c0-48d1-b638-f9a7ec41fac1)
+![Orchidee](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/2f47bbe2-9143-410e-8b8f-03ecd12f7743)
+<br/>
+# Usambaraveilchen
+![Usambaraveilchen](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/24163595-3b47-49e6-b0a7-cade896b60db)
+<br/>
+# Venusfliegenfalle 
+![Venusfliegenfalle](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/c8d91144-b1f7-41a9-b27f-bdb2f826fe2f)
+<br/>
+# Wanderröschen 
+![Wanderröschen](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/eefdcff2-9ef4-4df6-b6e1-8febd9246499)
+<br/>
 
 
 
