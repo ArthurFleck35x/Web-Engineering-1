@@ -59,7 +59,7 @@ Dieses Projekt wurde von **Katharina** und **Lea** erstellt. Wir freuen uns übe
 
 ---
 
-Wir hoffen, dass Ihnen FloraFinds gefällt und freuen uns auf Ihre Unterstützung und Ihr Feedback!
+Wir hoffen, dass Ihnen FloraFinds gefällt!
 
 Herzliche Grüße,
 
