@@ -1,19 +1,21 @@
+# Kerbel
+![Kerbel](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/679fb426-13ae-40ac-a3f3-543ede6a1fdc)
+<br/>
+# Majoran 
+![Majoran](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/2d500c2a-42e9-4027-ae8b-b994095aa87d)
+ <br/>
+ # Petersilie
+ ![Petersilie](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/d7a68a7e-1e97-4d64-86e0-346d5964a207)
+<br/>
+# Rosmarin
+![Rosmarin](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/bf23fa97-a6df-4b03-b4ad-2bde257aea45)
+<br/>
 # Salbei
 ![sage-4367048_1280 1](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/d14ce823-7302-49b2-b950-aeb892e30851)
 <br/>
-# Petersilie
-![parsley-5766_640 1](https://github.com/ArthurFleck35x/Karteikartensystem/assets/152798623/e969d853-696d-4412-b3f0-4d8fe6f0a1b1)
+# Sauerampfer
+![Sauerampfer](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/64e16985-0db7-4c55-b9f7-63cb3df3b586)
 <br/>
-![parsley-1444029_640 1](https://github.com/ArthurFleck35x/Karteikartensystem/assets/152798623/6f236779-7b4e-4d19-8de2-2b7b1a1b84b1)
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+# Thymian
+![Thymian](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/4898c914-ddfd-4199-872a-107019160de7)
+<br/
