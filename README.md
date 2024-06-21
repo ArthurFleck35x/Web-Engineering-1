@@ -39,7 +39,7 @@ FloraFinds ist eine Webseite, die Pflanzenliebhabern dabei hilft, die schönsten
 
 1. Klonen Sie dieses Repository:
    ```sh
-   git clone https://github.com/ArthurFleck35x/Web-Engineering-1/Implementation.git
+   git clone [https://github.com/ArthurFleck35x/Web-Engineering-1/Implementation.git](https://github.com/ArthurFleck35x/Web-Engineering-1.git)
    ```
 2. Navigieren Sie in das Projektverzeichnis:
    ```sh
