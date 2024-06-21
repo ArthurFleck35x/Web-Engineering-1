@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+    <META charset="UTF-8">
+    <META name="viewport" content="width=device-width,initial-scale=1.0">
+    <TITLE>FloraFinds</TITLE>
+    <LINK rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <LINK rel="stylesheet" href="./css/style.css">
+    <LINK rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <LINK rel="icon" href="./images/logo/logo.jpeg" type="image/jpeg">
+</HEAD>
+<BODY>
+    <HEADER>
+        </div>
+        <div class="header-2">
+            <a href="#" class="logo">
+                <img src="./images/logo/logo.jpeg" alt="Logo" class="logo-image">
+                FLO<span>RA</span>-FI<span>NDS</span>
+            </a>
+            <form action="" class="serach-bar-container">
+                <input type="search" id="search-bar" placeholder="Suche...">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+        </div> 
+        
+        
+        <div class="header-3">
+            <div id="menu-bar" class="fas fa-bars ">
+            </div>
+            <nav class="nav-bar">
+                <a href="index.html">Startseite</a>
+                <a href="#Category">Kategorien</a>
+            </nav>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart" id="cart-btn"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-user" id="login-btn"></a>
+            </div>
+            <!--Kontainer-->
+            <div class="cart-items-container">
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="./images/neuheiten/neuheit03.png" alt="">
+                    <div class="content">
+                        <h3>
+                            Cart item 01
+                        </h3>
+                        <div class="price">
+                            15.99&#x20AC;
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="./images/zierpflanzen/blumen/" alt="">
+                    <div class="content">
+                        <h3>
+                            Cart item 02
+                        </h3>
+                        <div class="price">
+                            15.99&#x20AC;
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="./images/product3.jpg" alt="">
+                    <div class="content">
+                        <h3>
+                            Cart item 03
+                        </h3>
+                        <div class="price">
+                            15.99&#x20AC;
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="./images/product4.jpg" alt="">
+                    <div class="content">
+                        <h3>
+                            Cart item 04
+                        </h3>
+                        <div class="price">
+                            15.99&#x20AC;
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">Checkout now</a>
+            </div>
+        </div>
+    </HEADER>
+
+    <!--Login-->
+    <div class="login-form-container">
+        <form action="">
+            <div id="close-login-btn" class="fas fa-close"></div>
+            <h3>Sign in</h3>
+            <span>Username</span>
+            <input type="email" class="box" name="" placeholder="Enter your username..." id="">
+            <span>Password</span>
+            <input type="password" class="box" name="" placeholder="Enter your password..." id="">
+            <div class="check-box">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Remember me</label>
+            </div>
+            <input type="submit" value="Sign in" class="btn">
+            <p>Forget password?<a href="#">click here</a></p>
+            <p>Don't have an account ? <a href="#">Sign up</a></p>
+        </form>
+    </div>
+    <!--Ende Login-->
+    <!--Kategorien-->
+    <section class="Category" id="Category">
+        <h1 class="heading">Einkaufen nach Kategorien</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src=".\images\standortbasierte Pflanzen\balkon\Petunie.png" alt="Petunien">
+                <div class="content">
+                    <h3>Balkon</h3>
+                    <a href="#balkon" class="btn">Jetzt entdecken</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src=".\images\standortbasierte Pflanzen\draußen\Prachtkerze.png" alt="Prachtkerze">
+                <div class="content">
+                    <h3>Draußen</h3>
+                    <a href="#draußen" class="btn">Jetzt entdecken</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src=".\images\standortbasierte Pflanzen\drinnen\Drinnen.png" alt="Drinnen">
+                <div class="content">
+                    <h3>Drinnen</h3>
+                    <a href="#drinnen" class="btn"> Jetzt entdecken</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src=".\images\standortbasierte Pflanzen\mediteran\Olivenbaum.png" alt="Olivenbaum">
+                <div class="content">
+                    <h3>Mediteran</h3>
+                    <a href="#mediteran" class="btn">Jetzt entdecken</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Ende Kategorien-->
+    <!--Balkon-->
+    <section class="product" id="Product">
+        <h1 id="balkon" class="heading">Balkon</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\balkon\Clematis.png" alt="Clematis">
+                <h3>Clematis</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    13.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\balkon\Fuchsie.png" alt="Fuchsie">
+                <h3>Fuchsie</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    14.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\balkon\Geranie.png" alt="Geranie">
+                <h3>Geranie</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star
+    "></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    13.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\balkon\Paprika.png" alt="Paprika">
+                <h3>Paprika</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    14.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\balkon\Goldmarie.png" alt="Goldmarie">
+                <h3>Goldmarie</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    12.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\balkon\Sonnenblume.png" alt="Sonnenblume">
+                <h3>Sonnenblume</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    15.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+    </section>
+
+    <!--Draußen-->
+    <section class="product" id="Product">
+        <h1 id="draußen" class="heading">Draußen</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\draußen\Alpenveilchen.png" alt="Alpenveilchen">
+                <h3>Alpenveilchen</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    13.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\draußen\Christrose.png" alt="Christrose">
+                <h3>Christrose</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    14.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\draußen\Fette Henne.png" alt="Fette Henne">
+                <h3>Fette Henne</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star
+    "></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    13.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\draußen\Hauswurz.png" alt="Hauswurz">
+                <h3>Hauswurz</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    14.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\draußen\Prachtkerze.png" alt="Prachtkerze">
+                <h3>Prachtkerze</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    12.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\draußen\Stiefmütterchen.png" alt="Stiefmütterchen">
+                <h3>Stiefmütterchen</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    15.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+    </section>
+    
+    <!--Drinnen-->
+    <section class="product" id="Product">
+        <h1 id="drinnen" class="heading">Drinnen</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\drinnen\Flammendes Käthchen.png" alt="Flammendes Käthchen">
+                <h3>Flammendes Käthchen</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    13.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\drinnen\Hibiskus.png" alt="Hibiskus">
+                <h3>Hibiskus</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    14.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\drinnen\Orchidee.png" alt="Orchidee">
+                <h3>Orchidee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star
+    "></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    13.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\drinnen\Usambaraveilchen.png" alt="Usambaraveilchen">
+                <h3>Usambaraveilchen</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    14.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\drinnen\Venusfliegenfalle.png" alt="Venusfliegenfalle">
+                <h3>Venusfliegenfalle</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    12.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\drinnen\Wanderröschen.png" alt="Wanderröschen">
+                <h3>Wanderröschen</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    15.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+    </section>
+    <!--Mediteran-->
+    <section class="product" id="Product">
+        <h1 id="mediteran" class="heading">Mediteran</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\mediteran\Erdbeerbaum.png" alt="Erdbeerbaum">
+                <h3>Erdbeerbaum</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    13.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\mediteran\Eukalyptus.png" alt="Eukalyptus">
+                <h3>Eukalyptus</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    14.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\mediteran\Granatapfel.png" alt="Granatapfel">
+                <h3>Granatapfel</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star
+    "></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    13.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\mediteran\Oliander.png" alt="Oliander">
+                <h3>Oliander</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    14.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\mediteran\Passionspflanze.png" alt="Passionsblume">
+                <h3>Passionsblume</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    12.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src=".\images\standortbasierte Pflanzen\mediteran\Pfeffer.png" alt="Pfeffer">
+                <h3>Pfeffer</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Anzahl:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    15.99&#x20AC;<span></span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+    </section>
+    
+    <!--Produkte enden-->
+    
+<!-- Fußzeilenbereich beginnt -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Über uns</h3>
+            <p>Willkommen bei FloraFinds! Unsere Leidenschaft für Pflanzen treibt uns an, Ihnen die schönsten und gesündesten Gewächse anzubieten. Von üppigen Zimmerpflanzen bis hin zu farbenfrohen Gartenblumen sind wir Ihr vertrauensvoller Partner für grüne Lebensräume. Entdecken Sie unsere einzigartige Auswahl und lassen Sie sich von der Vielfalt der Natur inspirieren.</p>
+        </div>
+        <div class="box">
+            <h3>Standorte</h3>
+            <a href="#">Deutschland</a>
+            <a href="#">United Kingdom</a>
+            <a href="#">USA</a>
+            <a href="#">Japan</a>
+            <a href="#">Frankreich</a>
+        </div>
+        <div class="box">
+            <h3>Quicklinks</h3>
+            <a href="#Home">Startseite</a>
+            <a href="#Category">Kategorie</a>
+            <a href="#Deal">Angebot</a>
+            <a href="#Contact">Kontakt</a>
+        </div>
+        <div class="box">
+            <h3>Folgen Sie uns</h3>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            
+        </div>
+
+    </div>
+
+    <h1 class="credit">Erstellt von <span>Katharina <span class="klein">und</span> Lea</span> | Alle Rechte vorbehalten!</h1>
+    <div class="header-1">
+        <div class="share">
+            <span>Folgen Sie uns:</span>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+        </div>
+        <div class="share">
+            <span>Rufen Sie uns an:</span>
+            <a href="#">+1 (555) 123-4567</a>
+        </div>
+
+</section>
+
+<!-- Fußzeilenbereich endet -->
+
+    <!-- scroll top button  -->
+    <a href="#Home" class="scroll-top fas fa-angle-up"></a>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./js/script.js"></script>
+
+</html>

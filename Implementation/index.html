@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+    <META charset="UTF-8">
+    <META name="viewport" content="width=device-width,initial-scale=1.0">
+    <TITLE>FloraFinds</TITLE>
+    <LINK rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <LINK rel="stylesheet" href="./css/style.css">
+    <LINK rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <LINK rel="icon" href="./images/logo/logo.jpeg" type="image/jpeg">
+</HEAD>
+<BODY>
+    <HEADER>
+        </div>
+        <div class="header-2">
+            <a href="#" class="logo">
+                <img src="./images/logo/logo.jpeg" alt="Logo" class="logo-image">
+                FLO<span>RA</span>-FI<span>NDS</span>
+            </a>
+            <form action="" class="serach-bar-container">
+                <input type="search" id="search-bar" placeholder="Suche...">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+        </div> 
+        <div class="header-3">
+            <div id="menu-bar" class="fas fa-bars ">
+            </div>
+            <nav class="nav-bar">
+                <a href="#Home">Startseite</a>
+                <a href="#Category">Kategorien</a>
+                <a href="#Deal">Angebote</a>
+                <a href="#Contact">Kontakt</a> 
+            </nav>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart" id="cart-btn"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-user" id="login-btn"></a>
+            </div>
+            <!--Kontainer - cart section-->
+            <div class="cart-items-container">
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="./images/neuheiten/neuheit03.png" alt="">
+                    <div class="content">
+                        <h3>
+                            Ware 01
+                        </h3>
+                        <div class="price">
+                            13.99&#x20AC;
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="./images/standortbasierte Pflanzen/draußen/Fette Henne.png" alt="">
+                    <div class="content">
+                        <h3>
+                            Ware 02
+                        </h3>
+                        <div class="price">
+                            13.99&#x20AC;
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="./images/zierpflanzen/rosen/Edelrose.png" alt="">
+                    <div class="content">
+                        <h3>
+                            Ware 03
+                        </h3>
+                        <div class="price">
+                            13.99&#x20AC;
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="./images/standortbasierte Pflanzen/drinnen/Hibiskus.png" alt="">
+                    <div class="content">
+                        <h3>
+                            Ware 04
+                        </h3>
+                        <div class="price">
+                            14.99&#x20AC;
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">Jetzt bezahlen</a>
+            </div>
+            <!--Kontainer- cart sectiom-->
+        </div>
+    </HEADER>
+    <!--Login-->
+    <div class="login-form-container">
+        <form action="">
+            <div id="close-login-btn" class="fas fa-close"></div>
+            <h3>Einloggen</h3>
+            <span>Benutzername</span>
+            <input type="email" class="box" name="" placeholder="Benutzername eingeben..." id="">
+            <span>Passwort</span>
+            <input type="password" class="box" name="" placeholder="Passwort eingeben..." id="">
+            <div class="check-box">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Benutzerdaten speichern</label>
+            </div>
+            <input type="submit" value="Einloggen" class="btn">
+            <p>Passwort vergessen?<a href="#"> hier klicken</a></p>
+            <p>Noch kein Benutzerkonto? <a href="#">Registrieren</a></p>
+        </form>
+    </div>
+    <!--Login-->
+<!--Switch-->
+<section class="Home" id="Home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box" style="background:url(./images/banner/banner01.jpg);">
+                    <div class="content">
+                        <h3>Blütenzauber für dein Zuhause</h3>
+                        <a href="nutzpflanzen.html" class="btn">Jetzt entdecken</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box" style="background:url(./images/banner/banner02.jpg);">
+                    <div class="content">
+                        <h3>Entdecke die Vielfalt unserer Pflanzen!</h3>
+                        <a href="#" class="btn">Jetzt entdecken</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box" style="background:url(./images/banner/banner03.jpg);">
+                    <div class="content">
+                        <h3>Grün ist das neue Glück</h3>
+                        <a href="#" class="btn">Jetzt entdecken</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box" style="background:url(./images/banner/Schnittblumen.png);">
+                    <div class="content">
+                        <h3> Bestaunen Sie farbige Akzente und Frische für Ihr Zuhause</h3>
+                        <a href="nutzpflanzen.html" class="btn">Demnächst verfügbar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<!--Switch-->
+<!--Banner-->
+<section class="banner-container">
+    <div class="banner">
+        <img src="./images/zierpflanzen/rosen/rosen01.jpg" alt="Bild von Roten Rosen">
+        <div class="content">
+            <span>Neuheiten</span>
+            <h3>Rosenvielfalt</h3>
+            <a href="#Deal" class="btn">Jetzt entdecken</a>
+        </div>
+    </div>
+    <div class="banner">
+        <img src=".\images\spezial_und_funktionspflanzen\spezialpflanzen\spezialpflanze01jpg.jpg" alt="">
+        <div class="content">
+            <span>Neuheiten</span>
+            <h3>Spezialpflanzen</h3>
+            <a href="#Deal" class="btn">Jetzt entdecken</a>
+            </div>
+        </div>
+    </section>
+    <!--Banner-->
+
+    <!--Icons-->
+        <section class="icons-container">
+            <div class="icon">
+                <img src="./images/icons/free-delivery.png" alt="Symbol kostenloser Versand">
+                <div class="content">
+                    <h3>Kostenloser Versand</h3>
+                    <p>Kostenloser Versand auf deine Bestellung</p>
+                </div>
+            </div>
+            <div class="icon">
+                <img src="./images/icons/card.png" alt="Symbol Sichere Zahlungsabwicklung">
+                <div class="content">
+                    <h3>Sichere Zahlungsabwicklung</h3>
+                    <p>Ihre Zahlungen sind bei uns zu 100% geschützt</p>
+                </div>
+            </div>
+            <div class="icon">
+                <img src="./images/icons/cashback.png" alt="Symbol Geld-zurück-Garantie">
+                <div class="content">
+                    <h3>Unsere 100% <span class="klein">ige</span> Geld-zurück-Garantie</h3>
+                    <p>30-tägige Rückgabemöglichkeit für Ihre Zufriedenheit</p>
+                </div>
+            </div>
+            <div class="icon">
+                <img src="./images/icons/support.png" alt="Symbol 24 Stunden Support">
+                <div class="content">
+                    <h3>Rund um die Uhr Support</h3>
+                    <p>Kontaktieren Sie uns jederzeit</p>
+                </div>
+            </div>
+        </section>
+    <!--Icons-->
+    
+    <!--Kategory-->
+    <section class="Category" id="Category">
+        <h1 class="heading">Einkaufen nach Kategorien</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/nutzpflanzen/nutzpflanzen01.jpg" alt="Bild mit verschiedenen Gemüsesorten">
+                <div class="content">
+                    <h3>Nutzpflanzen</h3>
+                    <a href="nutzpflanzen.html" class="btn">Jetzt entdecken</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/zierpflanzen/blumen/zierpflanzen01.jpg" alt="">
+                <div class="content">
+                    <h3>Zierpflanzen</h3>
+                    <a href="zierpflanzen.html" class="btn">Jetzt entdecken</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/standortbasierte Pflanzen/drinnen/Drinnen.png" alt="">
+                <div class="content">
+                    <h3>Standortbasierte Pflanzen</h3>
+                    <a href="standortbasiertepflanzen.html" class="btn"> Jetzt entdecken</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src=".\images\spezial_und_funktionspflanzen\spezialpflanzen\spezialpflanze01jpg.jpg" alt="">
+                <div class="content">
+                    <h3>Spezial- und Funktionspflanzen</h3>
+                    <a href="spezialundfunktionspflanzen.html" class="btn">Jetzt entdecken</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Kategorie-->
+    <!--Produkte-->
+    <section class="product" id="Product">
+        <h1 id="Deal"  class="heading">Neuheiten</h1>
+        <div class="box-container">
+            
+            <div class="box">
+                <span class="discount">21%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./images/neuheiten/neuheit02.jpg" alt="Aloe Vera Pflanze">
+                <h3>Aloe Vera</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Quantify:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    14.99&#x20AC;<span> 18.99&#x20AC;</span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            <div class="box">
+                <span class="discount">-28%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./images/neuheiten/neuheit03.png" alt="">
+                <h3>Ananas</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star
+    "></i>
+                </div>
+                <div class="quantify">
+                    <span>Quantify:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    13.99&#x20AC;<span> 19.99&#x20AC;</span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+            
+            <div class="box">
+                <span class="discount">-27%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./images/neuheiten/neuheit04.jpg" alt="">
+                <h3>Topfrosen</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="quantify">
+                    <span>Quantify:</span>
+                    <input type="number" min="1" max="100" value="1">
+                </div>
+                <div class="price">
+                    15.99&#x20AC;<span> 21.99&#x20AC;</span>
+                </div>
+                <a href="#" class="btn">In den Warenkorb legen</a>
+            </div>
+    </section>
+    <!--Produkte-->
+ <!-- Abschnitt für das Angebot beginnt -->
+<section class="deal" id="Deal">
+    <h1 class="heading">Angebot des Tages</h1>
+    <div class="row">
+        <div class="content">
+            <h3 class="title">Farbenpracht für jeden Garten</h3>
+            <p>Die Drillingsblume, auch Bougainvillea genannt, begeistert mit ihren leuchtenden Farben in Pink, Violett, Rot und Orange. Ihre intensive Blütenpracht bringt Leben und Freude in jeden Garten und lässt triste Ecken in neuem Glanz erstrahlen.
+            </p>
+            <div class="count-down">
+                <div class="box">
+                    <h3 id="day">00</h3>
+                    <span>Tage</span>
+                </div>
+                <div class="box">
+                    <h3 id="hour">00</h3>
+                    <span>Stunden</span>
+                </div>
+                <div class="box">
+                    <h3 id="minute">00</h3>
+                    <span>Minuten</span>
+                </div>
+                <div class="box">
+                    <h3 id="second">00</h3>
+                    <span>Sekunden</span>
+                </div>
+            </div>
+            <a href="#" class="btn">Angebot ansehen</a>
+        </div>
+
+        <div class="image">
+            <img src="images/deal/deal.jpg" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Abschnitt für das Angebot endet -->
+
+<!-- Abschnitt für die Kontaktaufnahme beginnt -->
+
+<section class="contact" id="Contact">
+
+    <h1 class="heading">Kontaktieren Sie uns</h1>
+
+    <div class="row">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1241.8618373142328!2d-0.016195610854661795!3d51.4999381126702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487602bc9851c13f%3A0xef0bb7d5084a9e84!2sFlorafind!5e0!3m2!1sen!2sde!4v1717797267202!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <form action="">
+
+            <div class="inputBox">
+                <input type="text" required>
+                <label>Name</label>
+            </div>
+            <div class="inputBox">
+                <input type="email" required>
+                <label>E-Mail</label>
+            </div>
+            <div class="inputBox">
+                <input type="number" required>
+                <label>Telefonnummer</label>
+            </div>
+            <div class="inputBox">
+                <textarea required name="" id="" cols="30" rows="10"></textarea>
+                <label>Nachricht</label>
+            </div>
+
+            <input type="submit" value="Nachricht senden" class="btn">
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- Abschnitt für die Kontaktaufnahme endet -->
+
+<!-- Fußzeilenbereich beginnt -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Über uns</h3>
+            <p>Willkommen bei FloraFinds! Unsere Leidenschaft für Pflanzen treibt uns an, Ihnen die schönsten und gesündesten Gewächse anzubieten. Von üppigen Zimmerpflanzen bis hin zu farbenfrohen Gartenblumen sind wir Ihr vertrauensvoller Partner für grüne Lebensräume. Entdecken Sie unsere einzigartige Auswahl und lassen Sie sich von der Vielfalt der Natur inspirieren.</p>
+        </div>
+        <div class="box">
+            <h3>Standorte</h3>
+            <a href="#">Deutschland</a>
+            <a href="#">United Kingdom</a>
+            <a href="#">USA</a>
+            <a href="#">Japan</a>
+            <a href="#">Frankreich</a>
+        </div>
+        <div class="box">
+            <h3>Quicklinks</h3>
+            <a href="#Home">Startseite</a>
+            <a href="#Category">Kategorie</a>
+            <a href="#Deal">Angebot</a>
+            <a href="#Contact">Kontakt</a>
+        </div>
+        <div class="box">
+            <h3>Folgen Sie uns</h3>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            
+        </div>
+
+    </div>
+
+    <h1 class="credit">Erstellt von <span>Katharina <span class="klein">und</span> Lea</span> | Alle Rechte vorbehalten!</h1>
+    <div class="header-1">
+        <div class="share">
+            <span>Folgen Sie uns:</span>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+        </div>
+        <div class="share">
+            <span>Rufen Sie uns an:</span>
+            <a href="#">+1 (555) 123-4567</a>
+        </div>
+
+</section>
+
+<!-- Fußzeilenbereich endet -->
+
+    <!-- scroll top button  -->
+    <a href="#Home" class="scroll-top fas fa-angle-up"></a>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./js/script.js"></script>
+
+</html>
