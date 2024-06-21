@@ -13,14 +13,13 @@ Lasst uns gemeinsam die Welt ein Stück grüner machen!
 Mit grünen Grüßen,  
 Katharina und Lea von Flora Finds 🌱
 
-<img src="path/to/your/image.png" alt="Gärtner" width="300">
 
 ---
 
 Schaut doch Mal hier rein! [ArthurFleck35x](https://github.com/ArthurFleck35x/Web-Engineering-1/blob/main/README.md).
 <br/>
 
-<br/>
-  ![image](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/0352efec-7551-4553-8a9b-6b902480884b)
+![image](https://github.com/ArthurFleck35x/Web-Engineering-1/assets/152798623/d3a84e71-e216-4a3e-be3c-b1209059ea25)
+
 
 
