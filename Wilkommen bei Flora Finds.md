@@ -6,7 +6,7 @@ Wir sind Katharina und Lea, zwei leidenschaftliche Gärtnerinnen und Naturfreund
 
 Obwohl wir erst kürzlich mit dem Programmieren begonnen haben, bringen wir unsere Leidenschaft für Pflanzen in jedes Projekt ein, das wir anpacken. Bei Flora Finds dreht sich alles um das Pflanzen von Samen und das Ernten ihrer Früchte – sowohl im Garten als auch in der digitalen Welt. Unser Ziel ist es, anderen Menschen die Schönheit und Vielfalt der Pflanzenwelt näherzubringen und ihnen zu helfen, ihre eigenen grünen Oasen zu erschaffen.
 
-Unser GitHub-Repository ist der Ort, an dem wir unsere Fortschritte, Ideen und Projekte teilen. Hier könnt ihr unsere Reise verfolgen, während wir daran arbeiten, Flora Finds zu einem Ort zu machen, an dem jeder Pflanzenliebhaber das findet, was sein Herz begehrt. Egal, ob ihr erfahrene Gärtner seid oder gerade erst anfangt, bei uns seid ihr herzlich willkommen.
+Unser GitHub-Repository ist der Ort, an dem wir unsere Fortschritte, Ideen und Projekte teilen. Hier könnt ihr unsere Reise verfolgen, während wir daran arbeiten, Flora Finds zu einem Ort zu machen, an dem jeder Pflanzenliebhaber das findet, was sein Herz begehrt. Egal, ob ihr erfahrene Gärtner seid oder gerade erst anfangt, bei uns findet ihr genau das richtige für euch.
 
 Lasst uns gemeinsam die Welt ein Stück grüner machen!
 
