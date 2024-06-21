@@ -63,10 +63,8 @@ let swiper = new Swiper(".home-slider", {
 let countDate = new Date('june 30, 2024 00:00:00').getTime();
 
 function countDown() {
-
     let now = new Date().getTime();
-
-    gap = countDate - now;
+    let gap = countDate - now;
 
     let second = 1000;
     let minute = second * 60;
@@ -78,13 +76,19 @@ function countDown() {
     let m = Math.floor((gap % (hour)) / (minute));
     let s = Math.floor((gap % (minute)) / (second));
 
+    if (gap < 0) {
+        d = 0;
+        h = 0;
+        m = 0;
+        s = 0;
+    }
+
     document.getElementById('day').innerText = d;
     document.getElementById('hour').innerText = h;
     document.getElementById('minute').innerText = m;
     document.getElementById('second').innerText = s;
-
 }
 
 setInterval(function() {
     countDown();
-}, 1000)
+}, 1000); 
